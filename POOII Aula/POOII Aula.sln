@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercicioSRP", "ExercicioSR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP", "SRP\SRP.csproj", "{86E904DB-35F1-4854-9581-C6841C687DEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCP", "OCP\OCP.csproj", "{BE8D8338-A4C8-4DE0-B06F-138395ED0FB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{86E904DB-35F1-4854-9581-C6841C687DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86E904DB-35F1-4854-9581-C6841C687DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86E904DB-35F1-4854-9581-C6841C687DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE8D8338-A4C8-4DE0-B06F-138395ED0FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE8D8338-A4C8-4DE0-B06F-138395ED0FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE8D8338-A4C8-4DE0-B06F-138395ED0FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE8D8338-A4C8-4DE0-B06F-138395ED0FB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
