@@ -6,9 +6,13 @@
         {
             List<IEmpresa> empresas = new List<IEmpresa>();
 
-            EnviarNotificacao notificacao = new EnviarNotificacao();
+            // flexibilidade = Open Closed
+            IEnviarNotificacao notificacao = new EnviarNotificacaoWhatsApp();
 
-            IEmpresa varejo = new Varejo("MercadoI", "Supermercado", "98765432100001", Tipo.EmpresaIndividual, notificacao);
+            IEnviarNotificacao notificacaoT = new EnviarNotificacaoTelegram();
+
+            //Dependencia da interface = Dependency Inversion
+            IEmpresa varejo = new Varejo("MercadoI", "Supermercado", "98765432100001", Tipo.EmpresaIndividual, notificacaoT);
             IEmpresa empreiteira = new Empreiteira("EmpreiteiraI", "Empreiteira Ltda", "12345678900001", Tipo.SociedadeLimitadaEmpresarial);
 
             empresas.Add(varejo);

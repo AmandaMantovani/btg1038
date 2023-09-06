@@ -6,16 +6,12 @@ using System.Threading.Tasks;
 
 namespace ExercicioEmpresas
 {
-    internal class EnviarNotificacao : IEnviarNotificacao
+    internal class EnviarNotificacaoWhatsApp : IEnviarNotificacao
     {
-        public void EnviarMensagemWhatsApp()
+        public void EnviarMensagem()
         {
+            //integra com whatsapp, e envia mensagem
             Console.WriteLine("Estou enviando uma mensagem no WhatsApp do Cliente");
-        }
-
-        public void EnviarMensagemTelegram()
-        {
-            Console.WriteLine("Estou enviando uma mensagem no Telegram do Cliente");
         }
     }
 }

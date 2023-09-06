@@ -7,7 +7,8 @@ namespace SRP
         static void Main(string[] args)
         {
             IConexaoBanco conexaoSql = new ConexaoBancoMySql();
-            NotaFiscalRepository repository = new(conexaoSql);
+            NotaFiscalRepository repository = new NotaFiscalRepository(conexaoSql);
+
             repository.Consultar("123");
         }
     }

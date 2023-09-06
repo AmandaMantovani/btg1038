@@ -8,7 +8,6 @@ namespace ExercicioEmpresas
 {
     internal interface IEnviarNotificacao
     {
-        void EnviarMensagemWhatsApp();
-        void EnviarMensagemTelegram();
+        void EnviarMensagem();
     }
 }
