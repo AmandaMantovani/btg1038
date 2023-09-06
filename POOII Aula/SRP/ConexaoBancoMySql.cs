@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SRP.Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SRP
 {
-    public class ConexaoBancoMySql
+    public class ConexaoBancoMySql : IConexaoBanco
     {
         private readonly string _bancoDeDados;
         private readonly string _usuario;

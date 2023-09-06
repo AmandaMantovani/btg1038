@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SRP.Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,8 +9,8 @@ namespace SRP
 {
     internal class NotaFiscalRepository
     {
-        private readonly ConexaoBancoMySql _conexao;
-        public NotaFiscalRepository(ConexaoBancoMySql conexao)
+        private readonly IConexaoBanco _conexao;
+        public NotaFiscalRepository(IConexaoBanco conexao)
         {
             _conexao = conexao;
         }
