@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ExercicioEmpresas
+﻿namespace ExercicioEmpresa1
 {
-    public enum Tipo 
+    public enum Tipo
     {
         MicroempreendedorIndividual,
         EmpresaIndividual,

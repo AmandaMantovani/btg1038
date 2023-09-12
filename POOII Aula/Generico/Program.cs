@@ -48,10 +48,8 @@
             ImprimeDados<Pessoa> imprimir = new();
             imprimir.ImprimeDadosGenericos(objetoPessoa);
 
-
             ImprimeDados<int> imprimir3 = new();
             imprimir3.ImprimeDadosGenericos(10);
-
 
             ImprimeDados2 imprimir2 = new();
 

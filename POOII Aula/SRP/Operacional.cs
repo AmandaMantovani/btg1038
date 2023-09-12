@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace SRP
 {
-    internal class Operacional
+    internal class Operacional : IOperacional
     {
-        public void BaixarEstoque() { }
+        public void BaixarEstoque()
+        { 
+            //codigo
+        }
     }
 }

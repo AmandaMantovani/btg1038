@@ -15,7 +15,7 @@ namespace Reflexao
 
             Console.WriteLine(tipo.Name);
             Console.WriteLine(texto.GetType().Name);*/
-            /*
+            
             Bicicleta bike = new Bicicleta("Caloi", 15, 16, 18, "Moutain Bike");
             Notebook note = new("Intel", "16Gb", "Intel I7", 14.7);
             bike.ImprimeDados();
@@ -34,7 +34,9 @@ namespace Reflexao
 
             //TipoQuadro
             propTipoQuadro.SetValue(bike, "Velocity");
-            
+
+            propTipoQuadro.SetValue(bike2, "Velocity2");
+
             Console.WriteLine(propTipoQuadro.GetValue(bike));
 
             Console.WriteLine(bike.TipoQuadro);
@@ -51,7 +53,6 @@ namespace Reflexao
             ImprimeReflection(note);
             
 
-            /*
             MethodInfo[] metodos = bike.GetType().GetMethods();
             Console.WriteLine($"Tenho {metodos.Length} métodos publicos e são eles:");
 
@@ -67,7 +68,6 @@ namespace Reflexao
             //Parametro 2 do Invoke -> array de object com os parametros que o método necessita
             metodoFreiar.Invoke(bike, new object[] { "devagar" });
             
-            */
 
             //instancia com base em um objeto existente
             /*

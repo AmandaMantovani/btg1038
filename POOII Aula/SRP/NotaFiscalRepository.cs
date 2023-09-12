@@ -24,6 +24,7 @@ namespace SRP
         {
             return true;
         }
+
         public bool Editar(NotaFiscal nota)
         {
             return true;
